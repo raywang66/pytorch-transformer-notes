@@ -1,22 +1,13 @@
-name: Personal Wiki Setup
-baseurl: "/pytorch-transformer-notes"  # Add this line
+name: PyTorch Transformer Notes
+baseurl: "/pytorch-transformer-notes"
+url: "https://raywang66.github.io"
 permalink: /:title
 
 markdown: kramdown
-kramdown:
-  input: GFM
-  auto_ids: true
+highlighter: rouge
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      twitter_username: "your username"
-      ga_id: "Your google analytics id"
-    scope:
-      path: "wiki/" # an empty string here means all files in the project
-    values:
-      importance: 5
-      layout: post
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
