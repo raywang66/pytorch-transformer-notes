@@ -1,4 +1,5 @@
 name: Personal Wiki Setup
+baseurl: "/pytorch-transformer-notes"  # Add this line
 permalink: /:title
 
 markdown: kramdown
@@ -18,4 +19,4 @@ defaults:
     values:
       importance: 5
       layout: post
-      
+
